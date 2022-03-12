@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Letter Game</title>
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" type="module" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Letter Game</h1>
+		</header>
+
+		<main>
+			<div class="container">
+				<label for="word" id="title">Enter a word starting with a Z.</label>
+				<input type="text" name="word" id="word" />
+
+				<div class="row">
+					<input type="checkbox" name="reverse" id="reverse" />
+					<label for="reverse">Reverse Mode</label>
+				</div>
+
+                <nav>
+                    <ul id="categories"></ul>
+                </nav>
+			</div>
+		</main>
+	</body>
+</html>
